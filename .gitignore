@@ -1,0 +1,47 @@
+# ==========================================================
+# Arquivos de Build (Gerados pelo Compilador/CLion)
+# ==========================================================
+# Ignora o diretório de build do CLion (tanto debug, release, etc.)
+cmake-build-*/
+
+# Ignora arquivos de objeto e de dependência
+*.o
+*.d
+
+
+# ==========================================================
+# Arquivos Executáveis
+# ==========================================================
+# Ignora o executável final do nosso programa
+projeto_audio
+*.exe
+*.out
+
+
+# ==========================================================
+# Arquivos de IDE (Configurações do CLion/JetBrains)
+# ==========================================================
+# Ignora a pasta de configurações do projeto do CLion.
+# Isso permite que outros desenvolvedores usem suas próprias configurações.
+.idea/
+
+
+# ==========================================================
+# Arquivos de Saída e Teste (Gerados pelo nosso programa)
+# ==========================================================
+# Ignora os arquivos de dados para o Gnuplot que nosso programa cria
+*.dat
+
+# Ignora os arquivos de áudio .wav (tanto os de entrada quanto os de saída)
+# O repositório deve ter o código que GERA o áudio, não o áudio em si.
+*.wav
+
+
+# ==========================================================
+# Arquivos de Sistema Operacional
+# ==========================================================
+# Arquivos do macOS
+.DS_Store
+
+# Arquivos do Windows
+Thumbs.db
